@@ -13,10 +13,12 @@
 
 # AI Agent Benchmark
 
-AI Agent benchmark is designed to measure performance of various LLM backed autonomous agents on common tasks such as infromation retrieval, file manipulation etc. 
+AI Agent Benchmark is designed to measure performance of various LLM backed autonomous agents on common tasks such as infromation retrieval, file manipulation etc. 
 
-## Methodology:
+## Methodology
 Each agent + LLM pair are given 5 runs for each task. Each task has a prompt, success condition and max number of steps to prevent running forever. Each run is timed, number of steps used to achieve the task is recorded. If max number of steps is reached, the run is considered a failure.
+
+Agent Benchmark's goal is to measure planning and execution performace of agents, not their raw intelligence or creativity as it's mostly a function of underlying LLMs. For example a bad test would be to ask an agent to write a poem and try to score it based on how good the poem is. A good test would be to ask an agent to write 3 blogposts of 100 words and measure how many steps it took to complete the task.
 
 ## Scoring 
 - 1 point for each successful run
