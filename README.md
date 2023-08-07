@@ -3,10 +3,6 @@
 AI Agent Benchmark is designed to measure performance of various LLM backed autonomous agents on common tasks such as infromation retrieval, file manipulation etc. The goal is to create a standard set of tasks that can be used to compare performance of various agents and help developers improve their agents.
 
 # Leaderboard
-AutoGPT - X points
-babyAGI - X points
-AgentGPT - X points
-superAGI - X points
 
 | Agent       | LLM         | Composite Score   |       
 | ----------- | ----------- | -----------       |
