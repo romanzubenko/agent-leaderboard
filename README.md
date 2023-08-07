@@ -19,6 +19,17 @@ babyAGI - X points
 AgentGPT - X points
 superAGI - X points
 
+| Agent       | LLM         | Score         |       
+| ----------- | ----------- | -----------   |
+| AutoGPT     | GPT-3.5     |   X           |
+| AutoGPT     | GPT-4       |   X           |
+| babyAGI     | GPT-3.5     |   X           |
+| babyAGI     | GPT-4       |   X           |
+| AgentGPT    | GPT-3.5     |   X           |
+| AgentGPT    | GPT-4       |   X           |
+| superAGI    | GPT-3.5     |   X           |
+| superAGI    | GPT-4       |   X           |
+
 # Tasks
 
 ## File Manipulation
