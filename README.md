@@ -13,6 +13,11 @@ Agent Benchmark's goal is to measure planning and execution performace of agents
 - 0 points for each run that failed due to error
 - 0 points for each run that failed due to incorrect output
 
+# Leaderboard
+AutoGPT - X points
+babyAGI - X points
+AgentGPT - X points
+superAGI - X points
 
 # Tasks
 
@@ -38,6 +43,9 @@ Agent Benchmark's goal is to measure planning and execution performace of agents
 
 ## Complex tasks
 - Looking up a fact on wikipedia and writing it to a file
+
+## Code manipulation
+WIP
 
 
 # Index of Autonomous Agents
