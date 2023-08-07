@@ -2,7 +2,24 @@
 
 AI Agent Benchmark is designed to measure performance of various LLM backed autonomous agents on common tasks such as infromation retrieval, file manipulation etc. The goal is to create a standard set of tasks that can be used to compare performance of various agents and help developers improve their agents.
 
-## Methodology
+# Leaderboard
+AutoGPT - X points
+babyAGI - X points
+AgentGPT - X points
+superAGI - X points
+
+| Agent       | LLM         | Composite Score   |       
+| ----------- | ----------- | -----------       |
+| AutoGPT     | GPT-3.5     |   X               |
+| AutoGPT     | GPT-4       |   X           |
+| babyAGI     | GPT-3.5     |   X           |
+| babyAGI     | GPT-4       |   X           |
+| AgentGPT    | GPT-3.5     |   X           |
+| AgentGPT    | GPT-4       |   X           |
+| superAGI    | GPT-3.5     |   X           |
+| superAGI    | GPT-4       |   X           |
+
+# Methodology
 Each agent + LLM pair are given 5 runs for each task. Each task has a prompt, success condition and max number of steps to prevent running forever. Each run is timed, number of steps used to achieve the task is recorded. If max number of steps is reached, the run is considered a failure.
 
 Agent Benchmark's goal is to measure planning and execution performace of agents, not their raw intelligence or creativity as it's mostly a function of underlying LLMs. For example a bad test would be to ask an agent to write a poem and try to score it based on how good the poem is. A good test would be to ask an agent to write 3 blogposts of 100 words and measure how many steps it took to complete the task.
@@ -12,23 +29,6 @@ Agent Benchmark's goal is to measure planning and execution performace of agents
 - 0 points for each run that failed due to max number of steps reached
 - 0 points for each run that failed due to error
 - 0 points for each run that failed due to incorrect output
-
-# Leaderboard
-AutoGPT - X points
-babyAGI - X points
-AgentGPT - X points
-superAGI - X points
-
-| Agent       | LLM         | Score         |       
-| ----------- | ----------- | -----------   |
-| AutoGPT     | GPT-3.5     |   X           |
-| AutoGPT     | GPT-4       |   X           |
-| babyAGI     | GPT-3.5     |   X           |
-| babyAGI     | GPT-4       |   X           |
-| AgentGPT    | GPT-3.5     |   X           |
-| AgentGPT    | GPT-4       |   X           |
-| superAGI    | GPT-3.5     |   X           |
-| superAGI    | GPT-4       |   X           |
 
 # Tasks
 
