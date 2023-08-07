@@ -22,6 +22,7 @@ Agent Benchmark's goal is to measure planning and execution performace of agents
 
 ## Scoring 
 - 1 point for each successful run
+- 0.5 point for halting before max number of steps and successfully completing the task
 - 0 points for each run that failed due to max number of steps reached
 - 0 points for each run that failed due to error
 - 0 points for each run that failed due to incorrect output
