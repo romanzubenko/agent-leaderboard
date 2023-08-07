@@ -1,6 +1,6 @@
 # AI Agent Benchmark
 
-AI Agent Benchmark is designed to measure performance of various LLM backed autonomous agents on common tasks such as infromation retrieval, file manipulation etc. 
+AI Agent Benchmark is designed to measure performance of various LLM backed autonomous agents on common tasks such as infromation retrieval, file manipulation etc. The goal is to create a standard set of tasks that can be used to compare performance of various agents and help developers improve their agents.
 
 ## Methodology
 Each agent + LLM pair are given 5 runs for each task. Each task has a prompt, success condition and max number of steps to prevent running forever. Each run is timed, number of steps used to achieve the task is recorded. If max number of steps is reached, the run is considered a failure.
