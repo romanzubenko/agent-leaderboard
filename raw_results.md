@@ -3,7 +3,12 @@ Creating a file
 <!-- table with 4 columns: task name, run #, output success, halting, score  -->
 | Task | Run # | Output Success | Halting | Score | Raw Output |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| Creating a file | 1 | True | False | 1 | 
+| Creating a file | run 1 | True | False | 1 | 
+| Creating a file | run 2 | True | False | 1 | 
+| Creating a file | run 3 | True | False | 1 |
+| Creating a file | run 4 | True | False | 1 | 
+
+| Reading a file | run 1 | True | False | 1 | 
 
 
 <details>

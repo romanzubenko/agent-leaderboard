@@ -6,3 +6,6 @@ output.txt exists and contains "Hello World"
 
 ## Max Steps
 10
+
+## Max Length of Execution
+5 minutes
