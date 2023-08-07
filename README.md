@@ -19,7 +19,7 @@ AI Agent benchmark is designed to measure performance of various LLM backed auto
 
 ## File Manipulation
 
-- Creating a file
+- [Creating a file](/file_manipulation/create_a_file.md)
 - Reading a file
 - Deleting a file
 - Renaming a file

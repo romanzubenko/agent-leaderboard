@@ -1,0 +1,1 @@
+Create a file called output.txt and write "Hello World" to it.
