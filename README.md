@@ -16,7 +16,7 @@
 AI Agent benchmark is designed to measure performance of various LLM backed autonomous agents on common tasks such as infromation retrieval, file manipulation etc. 
 
 ## Methodology:
-Each agent + LLM pair are given 5 runs for each task. Each task has a prompt, max number of steps to prevent running forever. Each run is timed, number of steps used to achieve the task is recorded. If max number of steps is reached, the run is considered a failure.
+Each agent + LLM pair are given 5 runs for each task. Each task has a prompt, success condition and max number of steps to prevent running forever. Each run is timed, number of steps used to achieve the task is recorded. If max number of steps is reached, the run is considered a failure.
 
 ## Scoring 
 - 1 point for each successful run
