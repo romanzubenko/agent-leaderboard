@@ -16,6 +16,7 @@
 
 [Godmode](https://godmode.space/)
 [Cognosys](https://cognosys.ai/)
+[LayerBrain](https://layerbrain.com/)
 
 
 ## Specialized

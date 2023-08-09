@@ -1,6 +1,6 @@
 # AI Agent Benchmark
 
-AI Agent Benchmark is designed to measure performance of various LLM backed autonomous agents on common tasks such as infromation retrieval, file manipulation etc. The goal is to create a standard set of tasks that can be used to compare performance of various agents and help developers improve their agents.
+AI Agent Benchmark is designed to measure performance of various LLM backed autonomous agents on common tasks such as infromation retrieval, file manipulation etc. The goal is to create a standard set of tasks that can be used to compare performance of various agents and help developers improve their agents. The emphasis is to study how different planning strategies, prompts to break down tasks and other factors affect performance of agents.
 
 # Leaderboard
 
@@ -49,7 +49,7 @@ Agent Benchmark's goal is to measure planning and execution performace of agents
 - Googling a term
 - Searching a term on wikipedia
 
-## Complex tasks
+## Composite tasks
 - Looking up a fact on wikipedia and writing it to a file
 
 ## Code manipulation
