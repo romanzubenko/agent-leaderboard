@@ -1,0 +1,1 @@
+Find 20 wedding venues in Mallorca, and save the list in wedding_venues.csv file. Each line in the file should contain the name of the venue and the link to the venue's website, and the link to the venue's instagram account.

@@ -1,0 +1,1 @@
+For each person who is nominated for Grammy best album in 2018 write a short blogpost with a person's bio and save it as [winner_name].txt file. In each file include links to person social media such as twitter and instagram
