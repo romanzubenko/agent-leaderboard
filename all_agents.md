@@ -4,8 +4,8 @@
 [AgentGPT](https://github.com/reworkd/AgentGPT)
 [superAGI](https://github.com/TransformerOptimus/SuperAGI)
 [automata](https://github.com/emrgnt-cmplxty/automata)
-[BabyBeeAGI] 
-[BabyCatAGI]
+[BabyBeeAGI](https://github.com/yoheinakajima/babyagi/blob/main/classic/BabyBeeAGI.py)
+[BabyCatAGI](https://github.com/yoheinakajima/babyagi/blob/main/classic/BabyCatAGI.py)
 [beebot](https://github.com/AutoPackAI/beebot)
 [AgentLLM](https://github.com/idosal/AgentLLM)
 [BabyAGI-asi](https://github.com/oliveirabruno01/babyagi-asi)
