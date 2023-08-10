@@ -36,13 +36,12 @@ Agent Benchmark's goal is to measure planning and execution performace of agents
 - [Deleting a file](/file_manipulation/deleting_a_file.md)
 - [Renaming a file](/file_manipulation/renamind_a_file.md)
 - [Copying a file](/file_manipulation/copying_a_file.md)
-- [Moving a file](/file_manipulation/create_a_file.md)
-- [Creating a directory](/file_manipulation/create_a_file.md)
-- [Deleting a directory](/file_manipulation/create_a_file.md)
-- [Renaming a directory](/file_manipulation/create_a_file.md)
-- [Copying a directory](/file_manipulation/create_a_file.md)
-- [Moving a directory](/file_manipulation/create_a_file.md)
-- [Listing directory contents](/file_manipulation/create_a_file.md)
+- [Moving a file](/file_manipulation/moving_a_file.md)
+- [Creating a directory](/file_manipulation/creating_directory.md)
+- [Deleting a directory](/file_manipulation/deleting_directory.md)
+- [Renaming a directory](/file_manipulation/renaming_directory.md)
+- [Moving a directory](/file_manipulation/moving_directory.md)
+- [Listing directory contents](/file_manipulation/listing_directory_contents.md)
 
 
 ## Information retrival
