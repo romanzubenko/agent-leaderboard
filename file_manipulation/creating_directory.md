@@ -1,5 +1,5 @@
 ## Prompt
-Create a file new directory output
+Create a new directory called output
 
 ## Success Criterea
 Directory output exists 

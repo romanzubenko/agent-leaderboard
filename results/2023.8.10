@@ -1,0 +1,90 @@
+Auto-GPT/GTP 3.5
+
+## File Manipulation
+
+docker compose run --rm auto-gpt
+y -9
+
+Raw results: number of calls, number of steps, token consumption, time, halted, success
+- [Creating a file](/file_manipulation/create_a_file.md)
+10, 10, ?, 1.40sec, no, success
+
+- [Reading a file](/file_manipulation/reading_a_file.md)
+10, 10, ?, 1:57sec, no, success
+
+
+- [Deleting a file](/file_manipulation/deleting_a_file.md)
+5, 5, ?, 1:12sec, yes, success
+- [Renaming a file](/file_manipulation/renamind_a_file.md)
+5, 5, ?, 58sec, yes, no
+10,10, ?, 2:31sec, no, success
+10,10, ?, 2:15sec, no, success
+
+- [Copying a file](/file_manipulation/copying_a_file.md)
+10,10, ?, 1:45sec, no, no
+10,10, ?, 1:38sec, no, success
+
+- [Moving a file](/file_manipulation/moving_a_file.md)
+10,10, ?, 2:30sec, no, success
+10,10, ?, 2:33sec, no, no
+
+- [Creating a directory](/file_manipulation/creating_directory.md)
+10,10, ?, 2:15sec, no, success
+
+- [Deleting a directory](/file_manipulation/deleting_directory.md)
+10,10, ?, 1:16sec, no, no
+10,10, ?, 1:21sec, no, no
+
+- [Renaming a directory](/file_manipulation/renaming_directory.md)
+10,10, 1:40?, sec, no, yes
+10,10, 2:12?, sec, no, yes
+
+
+- [Moving a directory](/file_manipulation/moving_directory.md)
+
+- [Listing directory contents](/file_manipulation/listing_directory_contents.md)
+
+Impressions:
+Most of the runs actually resulted in success on the first step, but AutoGPT had hard time recognizing it achieved its goal.
+At least half of the time, it created one off python scripts to achive its goals.
+
+Fixes:
+1. Check if goal has achieved after each task
+2. Utilize OS primitives for file manipulation instead of custom python
+
+
+===
+
+SuperAGI/GTP 3.5
+
+
+Raw results: number of calls, number of steps, token consumption, time, halted, success
+- [Creating a file](/file_manipulation/create_a_file.md)
+1,1, 0:24 sec, yes, yes
+1,1, 0:21 sec, yes, yes
+
+- [Reading a file](/file_manipulation/reading_a_file.md)
+4,4, 0:53 sec, yes, yes
+
+- [Deleting a file](/file_manipulation/deleting_a_file.md)
+
+- [Renaming a file](/file_manipulation/renamind_a_file.md)
+2,2, 0:20 sec, yes, yes
+
+- [Copying a file](/file_manipulation/copying_a_file.md)
+
+- [Moving a file](/file_manipulation/moving_a_file.md)
+
+- [Creating a directory](/file_manipulation/creating_directory.md)
+1,1, 2:24 sec, no, no
+
+- [Deleting a directory](/file_manipulation/deleting_directory.md)
+
+- [Renaming a directory](/file_manipulation/renaming_directory.md)
+
+
+- [Moving a directory](/file_manipulation/moving_directory.md)
+
+- [Listing directory contents](/file_manipulation/listing_directory_contents.md)
+
+

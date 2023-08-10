@@ -1,5 +1,5 @@
 ## Prompt
-Move file input.txt from a source directory to a directory called destination
+Move file input.txt from a source directory to a directory called destination in a working directory
 
 ## Success Criterea
 File input.txt exists in destination directory and does not exist in source directory

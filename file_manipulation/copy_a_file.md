@@ -1,8 +1,10 @@
 ## Prompt
-Copy contents of file called output.txt into a file called input.txt
+Copy contents of file called file_a.txt into a file called file_b.txt
 
 ## Success Criterea
-output.txt exists contents are equal to input.txt
+1. File file_a.txt is not modified
+2. File file_b.txt is created
+3. File file_b.txt has the same content as file_a.txt
 
 ## Max Steps
 10
